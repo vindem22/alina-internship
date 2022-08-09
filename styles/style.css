@@ -2,3 +2,57 @@
     --headings: 'Manrope', sans-serif;
     --secondary-text: 'Open Sans', sans-serif;
 }
+
+.page1{
+    display: row;
+    max-height: 100vh;
+    background-color: #0A2640;
+    padding: 3vw 6vw;
+
+
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header li{
+    color: #fff;
+}
+
+li{
+    display: inline;
+}
+
+.hero{
+    display: flex;
+    padding: 2vw 2vw 5vw 5vw;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.left, .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top{
+    width: 32vw;
+    margin: 0 0 2vh 0;
+}
+
+.bottom1{
+    width: 12.5vw;
+    margin-right: 2vw;
+}
+.bottom2{
+    width: 17vw;
+}
