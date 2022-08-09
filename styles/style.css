@@ -1,109 +1,14 @@
 :root {
-  --headings-font: 'Manrope', sans-serif;
-  --secondary-text: 'Open Sans', sans-serif;
+  /* Fonts variables */
+  --primary-font: 'Manrope', sans-serif;
+  --secondary-font: 'Open Sans', sans-serif;
+
+  /* It let's us to assume that 1rem approximately == 10px */
+  --root-font-size: 62.5%;
 }
 
 body {
-  position: relative;
   margin: 0;
-}
-
-section{
-  height: 100vh;
-}
-.hero {
-  display: row;
-  background-color: #0A2640;
-  padding: 10vw 6vw; 
-}
-
-header {
-  display: flex;
-  background-color: transparent;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  padding: 0;
   box-sizing: border-box;
-  padding: 1rem 3rem;
-  position: absolute;
-  width: 100%;
-  top: 0;
-}
-
-.content{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-li {
-  display: inline;
-  margin: 0 15px;
-  font-family: var(--secondary-text);
-  cursor: pointer;
-}
-
-
-
-
-
-
-.left,
-.right {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.top {
-  width: 32vw;
-  margin: 0 0 2vh 0;
-}
-
-.bottom1 {
-  width: 12.5vw;
-  margin-right: 2vw;
-}
-
-.bottom2 {
-  width: 17vw;
-}
-
-.logo {
-  width: 10vw;
-}
-
-.logos {
-  width: 70vw;
-}
-
-h1 {
-  font-family: var(--headings-font);
-
-  color: #fff;
-}
-
-.btn {
-  border-radius: 20px;
-  padding: 10px 25px;
-  background: #fff;
-  font-family: var(--secondary-text);
-  cursor: pointer;
-
-}
-
-.btn:active {
-  background-color:bisque;
-  transform: scale(.9);
-}
-
-
-
-p {
-  color: #fff;
-  font-family: var(--secondary-text);
 }
